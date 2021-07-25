@@ -11,14 +11,14 @@ at this step, we will use wires to connect ports with servos as shown In the att
 ```
 #include <Servo.h>
 
-  Servo servo1;
+  Servo servo1;             //variables declaration
   Servo servo2;
   Servo servo3;
   Servo servo4;
   Servo servo5;
   Servo servo6;
 void setup() {
-servo1.attach(11);
+servo1.attach(11);           //ports declaration
 servo2.attach(10);
 servo3.attach(9);
 servo4.attach(6);
@@ -45,6 +45,11 @@ void loop() {
  servo4.write(servo2_1);
  servo5.write(servo2_2);
  servo6.write(servo2_3);
+
+
+
+
+
 
 ```
 
